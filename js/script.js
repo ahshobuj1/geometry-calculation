@@ -52,7 +52,7 @@ const rectangleAreaCalculation = () => {
     }
 
     const countArea = widthInputArea * lengthInputArea;
-    showCountAreaResult('rectangleArea', countArea.toFixed(2));
+    showCountAreaResult('rectangleArea', countArea);
     setHistoryCard('Rectangle', countArea);
 };
 
